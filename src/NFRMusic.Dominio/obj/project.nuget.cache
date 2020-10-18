@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cs16KLw+UyXO0t/BxPaXQKxMtWH57bpYkN9lC+f5AEQi73XCtPZ/508xfU1yaUCbi1zKBVQQwYqg3JX0HJoAyQ==",
+  "success": true,
+  "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\NFRMusic\\src\\NFRMusic.Dominio\\NFRMusic.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Edila\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

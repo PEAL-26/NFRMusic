@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{476105DD-264F-462A-9671-2EB51E79B3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFRMusic.Dominio", "src\NFRMusic.Dominio\NFRMusic.Dominio.csproj", "{49C3FE8E-9159-487C-8D93-0330C6B2205F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{18EDCDC7-3907-453B-A82F-19AA85266C5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{C31749D7-EE5D-4662-9898-38B7DD8A8497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFRMusic.Infra.Data", "src\NFRMusic.Infra.Data\NFRMusic.Infra.Data.csproj", "{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C3FE8E-9159-487C-8D93-0330C6B2205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C3FE8E-9159-487C-8D93-0330C6B2205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C3FE8E-9159-487C-8D93-0330C6B2205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C3FE8E-9159-487C-8D93-0330C6B2205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49C3FE8E-9159-487C-8D93-0330C6B2205F} = {476105DD-264F-462A-9671-2EB51E79B3DE}
+		{C31749D7-EE5D-4662-9898-38B7DD8A8497} = {18EDCDC7-3907-453B-A82F-19AA85266C5B}
+		{8A6BEA7A-9A72-42AC-B2F4-2D4D6AA3A85A} = {C31749D7-EE5D-4662-9898-38B7DD8A8497}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62811DDF-683C-4644-85C3-CB8F7647FBE5}
+	EndGlobalSection
+EndGlobal
